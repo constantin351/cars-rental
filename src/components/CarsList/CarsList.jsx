@@ -7,7 +7,7 @@ const CarsList = ({cars, onLoadMoreBtnClick}) => {
     <main className={css.main}>
         <ul className={css.CarList}>
             {cars.map(car => (
-                <div key={car.id}>
+                <li key={car.id}>
                     <CarItem 
                         model={car.model}
                         make={car.make}
@@ -28,7 +28,7 @@ const CarsList = ({cars, onLoadMoreBtnClick}) => {
 
                         isFavorite={car.isFavorite}
                     />
-                </div>             
+                </li>             
             ))}
         </ul>
 
