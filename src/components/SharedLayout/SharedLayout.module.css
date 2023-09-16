@@ -1,0 +1,33 @@
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+  
+  header {
+    padding: 20px 10px;
+    border-bottom: 2px solid black;
+  }
+  
+  .active {
+    background-color: orangered;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+  }
+  
+  .navlink {
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+  }
+  
+  .navlink:hover {
+    color: white;
+    background-color: green;
+  }
+  

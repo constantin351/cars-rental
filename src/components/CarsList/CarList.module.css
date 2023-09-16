@@ -1,0 +1,43 @@
+.main {
+    padding: 15px;
+}
+
+.CarList {
+    display: flex;
+    padding: 0px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    row-gap: 29px;
+    column-gap: 50px;
+    flex-wrap: wrap;
+    list-style: none;
+    width: 100%;
+    padding: 15px;
+}
+
+.loadMoreBtn {
+    width: 200px;
+    padding: 12px 0;
+    color: #fff;
+    font-family: Manrope, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    border-radius: 12px;
+    background: #3470FF;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 3.43693px 3.43693px 0px rgba(0, 0, 0, 0.25);
+    
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.loadMoreBtn:hover {
+    background: #0B44CD;
+}
