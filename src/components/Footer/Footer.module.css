@@ -1,0 +1,72 @@
+.footerWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 0;
+  background: #0a7b72;
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 8px 5px,
+    rgba(0, 0, 0, 0.1) 0px 4px 5px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+}
+
+.logoWrapper {
+  display: flex;
+  height: 76px;
+  margin-right: 90px;
+}
+
+.contactsWrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contactUsText {
+  font-family: 'Manrope', sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 10px;
+
+  text-shadow: rgba(255, 255, 255, 0.1) -1px -1px 1px,
+    rgba(0, 0, 0, 0.5) 1px 1px 1px;
+  text-shadow: 2px 2px 5px #1d1e26;
+}
+
+.phoneWrapper {
+  font-family: 'Manrope', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 400;
+  color: #fff;
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+
+.emailWrapper {
+  font-family: 'Manrope', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 400;
+  color: #fff;
+  opacity: 0.8;
+}
+
+.text {
+  margin-left: 10px;
+  color: #fff;
+  font-family: 'Manrope', sans-serif;
+}

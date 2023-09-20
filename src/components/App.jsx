@@ -1,38 +1,48 @@
-import { lazy } from "react";
-import { Route, Routes } from "react-router-dom";
-import SharedLayout from "./SharedLayout/SharedLayout";
+import { lazy, useState } from 'react';
+import { Route, Routes } from 'react-router-dom';
+import SharedLayout from './SharedLayout/SharedLayout';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const HomePage = lazy(() => import('pages/HomePage'));
 const CataloguePage = lazy(() => import('pages/CataloguePage'));
 const FavoritesPage = lazy(() => import('pages/FavoritesPage'));
 
-
 export const App = () => {
+  const [allCars, setAllCars] = useState([]);
+
   return (
-    // <div
-    //   style={{
-    //     height: '100vh',
-    //     display: 'flex',
-    //     justifyContent: 'center',
-    //     alignItems: 'center',
-    //     fontSize: 40,
-    //     color: '#010101'
-    //   }}
-    // >
-    //   React homework TEMPLATE
-    // </div>
-    <Routes>
-        <Route path="/" element={<SharedLayout/>}>
+    <>
+      <Routes>
+        <Route path="/" element={<SharedLayout />}>
+          <Route index element={<HomePage />} />
 
-          <Route index element={<HomePage/>}/>
+          <Route
+            path="/catalog"
+            element={<CataloguePage cars={allCars} setAllCars={setAllCars} />}
+          />
 
-          <Route path="/catalog" element={<CataloguePage/>}/>
+          <Route
+            path="/favorites"
+            element={<FavoritesPage setAllCars={setAllCars} />}
+          />
 
-          <Route path="/favorites" element={<FavoritesPage/>}/>
-
-          {/* <Route path="*" element={<HomePage/>}/> */}
-
+          <Route path="*" element={<HomePage />} />
         </Route>
-    </Routes>
+      </Routes>
+
+      <ToastContainer
+        position="top-right"
+        autoClose={2000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
+      />
+    </>
   );
 };

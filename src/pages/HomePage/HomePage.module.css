@@ -1,0 +1,73 @@
+.heroSection {
+  display: flex;
+  background: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.1),
+      rgba(47, 48, 58, 0.5)
+    ),
+    url('../../images/heroPicture.jpg');
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.heroWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  margin: 0 auto;
+  gap: 30px;
+  width: 800px;
+  align-items: flex-start;
+}
+
+.heroTitle {
+  color: #fff;
+  text-shadow: 1px 1px 2px #5c5757;
+  font-family: Manrope, sans-serif;
+  font-size: 60px;
+  line-height: 1.2;
+  font-weight: 900;
+}
+
+.span {
+  color: #3470ff;
+  font-family: Manrope, sans-serif;
+}
+
+.heroText {
+  color: #fff;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.6;
+  font-family: Manrope, sans-serif;
+}
+
+.discoverBtn {
+  width: 200px;
+  padding: 12px 0;
+  color: #fff;
+  font-family: Manrope, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  border-radius: 12px;
+  background: #3470ff;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 3.43693px 3.43693px 0px rgba(0, 0, 0, 0.25);
+
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  justify-content: center;
+}
+
+.discoverBtn:hover {
+  background: #0b44cd;
+}
