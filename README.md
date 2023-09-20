@@ -1,5 +1,7 @@
 # RentCar rental service
 
+![Illustration RentCar rental App](https://prnt.sc/vicYM2stXyid)<br/>
+
 ####
 Welcome to RentCar service! A service for individuals who value comfort and time. This app provides you possibility to rent any car, whether a city smart car or a SUV for offroad rides, for a short city trip or for long riding around Ukraine regions.
 Here are main functionality features of this application:
@@ -21,7 +23,18 @@ Favorites page: clicking on the "heart" button on each car's card image you can 
 Filtering: using filtering form in the Catalogue Page you can easily find the needed car by brand name, mileage or rental price.
 
 ####
-Notifications: toast success, warn and erro messages for your better UE.
+Notifications: toast success, warn and error messages for your better UE.
 
 ####
 RentCar rental service makes cars search easy and pleasant.
+
+
+## Link to RentCar app
+
+To use this app follow this link [RentCar app](https://constantin351.github.io/cars-rental/).
+
+![preview](https://prnt.sc/88wONN7vz41s)
+![preview](https://prnt.sc/e0zSPFzxZSbV)
+![preview](https://prnt.sc/uGPk1nsDP4HQ)
+![preview](https://prnt.sc/Ya6q9X0-lKvg)
+![preview](https://prnt.sc/JTmzo6LrmM4u)
