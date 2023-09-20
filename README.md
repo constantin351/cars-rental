@@ -34,6 +34,9 @@ RentCar rental service makes cars search easy and pleasant.
 To use this app follow this link [RentCar app](https://constantin351.github.io/cars-rental/).
 
 ![preview](https://github.com/constantin351/cars-rental/blob/main/assets/preview_2.jpg)
+
 ![preview](https://github.com/constantin351/cars-rental/blob/main/assets/preview_3.jpg)
+
 ![preview](https://github.com/constantin351/cars-rental/blob/main/assets/preview_4.jpg)
+
 ![preview](https://github.com/constantin351/cars-rental/blob/main/assets/preview_5.jpg)
