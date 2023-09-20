@@ -1,6 +1,6 @@
 # RentCar rental service
 
-![Illustration RentCar rental App](https://prnt.sc/vicYM2stXyid)<br/>
+![Illustration RentCar rental App](https://github.com/constantin351/cars-rental/blob/main/homePage.png)<br/>
 
 ####
 Welcome to RentCar service! A service for individuals who value comfort and time. This app provides you possibility to rent any car, whether a city smart car or a SUV for offroad rides, for a short city trip or for long riding around Ukraine regions.
@@ -33,7 +33,7 @@ RentCar rental service makes cars search easy and pleasant.
 
 To use this app follow this link [RentCar app](https://constantin351.github.io/cars-rental/).
 
-![preview](https://prnt.sc/88wONN7vz41s)
+![preview]()
 ![preview](https://prnt.sc/e0zSPFzxZSbV)
 ![preview](https://prnt.sc/uGPk1nsDP4HQ)
 ![preview](https://prnt.sc/Ya6q9X0-lKvg)
