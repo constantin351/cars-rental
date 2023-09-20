@@ -3,12 +3,8 @@ import css from './CarsList.module.css';
 import { useEffect, useState } from 'react';
 import { toast } from 'react-toastify';
 
-const CarsList = ({
-  cars,
-  setCars,
-  addCarToFavoriteLS,
-}) => {
-  const [favoriteCarsArr, setFavoriteCarsArr] = useState([]);
+const CarsList = ({ cars, setCars, addCarToFavoriteLS }) => {
+  const [, setFavoriteCarsArr] = useState([]);
 
   useEffect(() => {
     const ls = localStorage.getItem('favorite-cars');
@@ -55,11 +51,12 @@ const CarsList = ({
       setFavoriteCarsArr(prevState =>
         prevState.filter(favoriteCar => favoriteCar.id !== carRecUpdated.id)
       );
+
       const parsedLSCar = JSON.parse(localStorage.getItem('favorite-cars'));
       const filteredLSCar = parsedLSCar?.filter(
         item => item.id !== carRecUpdated.id
       );
-      console.log('filteredLSCar', filteredLSCar);
+
       const favoriteCarsLS = filteredLSCar?.length
         ? JSON.stringify([...filteredLSCar])
         : [];
